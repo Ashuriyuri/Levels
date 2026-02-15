@@ -9,14 +9,29 @@
 
 <div class="card p-4 shadow" style="width: 420px; border-radius: 15px;">
 
+
+
+
+    
     <span class="badge bg-primary mb-2">Level 4</span>
     <h3>Form Validation</h3>
     <p>Enter a name. Empty = error, filled = success.</p>
 
+
+
+
+
     <input type="text" id="nameInput" class="form-control mb-2" placeholder="Type your name...">
     <button class="btn btn-primary w-100 mb-2" onclick="validate()">Submit Name</button>
 
+
+
+
     <p id="result"></p>
+
+
+
+
 
     <div class="d-flex gap-2 mt-3">
         <a href="lvl3.html" class="btn btn-secondary w-50">← Back</a>
@@ -25,10 +40,16 @@
 
 </div>
 
+
+
+
 <script>
 function validate() {
     let name = document.getElementById("nameInput").value;
     let result = document.getElementById("result");
+
+
+
 
     if (name === "") {
         result.innerHTML = "<span class='text-danger'>Name is required!</span>";
@@ -36,6 +57,9 @@ function validate() {
         result.innerHTML = "<span class='text-success'>Welcome, " + name + "!</span>";
     }
 }
+
+
+
 </script>
 
 </body>
