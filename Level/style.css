@@ -1,0 +1,13 @@
+.card text-center p-4{
+    color: brown;
+    padding: 10;
+}
+.card-title{
+    background-color: blue;
+    color: azure;
+    padding-right: Auto;
+    border-radius: 50%;
+}
+form{
+    background-color: pink;
+}
